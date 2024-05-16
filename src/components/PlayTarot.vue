@@ -72,7 +72,10 @@ function imageCard() {
         <div class="deckArea mb-6">
           <div class="tarotCard">
             <div class="card-wrapper cardArea">
-              <ul class="card-list" :class="[shuffle ? 'is-animated' : '']">
+              <ul
+                class="card-list mt-6 mb-6"
+                :class="[shuffle ? 'is-animated' : '']"
+              >
                 <li class="card-list__item" data-card="0">
                   <div class="card"></div>
                 </li>
@@ -95,7 +98,7 @@ function imageCard() {
           </div>
           <div class="tarotMeaning">
             <div v-if="showDescriptionCard">
-              <h2 class="mt-4 mb-4 coloryellow">{{ tarotCardShow.name }}</h2>
+              <h2 class="mb-4 coloryellow">{{ tarotCardShow.name }}</h2>
 
               <h3 class="mb-3">
                 <span class="coloryellow">Suit:</span>
@@ -133,7 +136,6 @@ function imageCard() {
 .deckArea {
   width: 100%;
   height: 400px;
-  overflow: auto;
 }
 .tarotCard {
   width: 40%;
@@ -150,8 +152,10 @@ function imageCard() {
   width: 58%;
   float: left;
   padding: 1%;
-  height: 400px;
+  height: 380px;
   text-align: left;
+  overflow: auto;
+  margin-top: 20px;
 }
 @media (max-width: 768px) {
   .deckArea {
@@ -164,10 +168,10 @@ function imageCard() {
   }
   .tarotMeaning {
     width: 98%;
-    height: auto;
+    height: 520px;
   }
   .height {
-    height: 1200px;
+    height: 1100px;
   }
 }
 @keyframes shuffle {
