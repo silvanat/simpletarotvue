@@ -168,7 +168,7 @@ function imageCard() {
   }
   .tarotMeaning {
     width: 98%;
-    height: 520px;
+    height: 460px;
   }
   .height {
     height: 1100px;
