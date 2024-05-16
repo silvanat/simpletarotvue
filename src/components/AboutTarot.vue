@@ -7,11 +7,10 @@
 
       <v-card-text class="bg-surface-light pt-4">
         <p class="mb-6 mt-6">
-          This project were builded with Vuetify 3. It was created by Silvana
-          for learning purposes.
+          This project was created with Vuetify 3 for learning purposes.
         </p>
         <p class="mb-6">
-          This project consuming the
+          This project consume the
           <a href="https://tarotapi.dev/">Tarot API.</a>
         </p>
         <p class="mb-6">
