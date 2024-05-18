@@ -48,7 +48,6 @@ function imageCard() {
       srcTarot = "../images/cards/" + tarotCardShow.value_int + ".jpg";
     }
   }
-
   return srcTarot;
 }
 </script>
@@ -266,5 +265,8 @@ function imageCard() {
 [data-card="2"] .card {
   background: url("../assets/images/tarot_back3.png") center center;
   background-size: cover;
+}
+[data-card="3"] .card {
+  background-color: #dfcaab;
 }
 </style>
